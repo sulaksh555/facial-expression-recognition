@@ -8,7 +8,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
     def __init__(self):
-        self.video = cv2.VideoCapture("/Users/sulaksh555/Documents/github-cloned-repos/facial-expression-recognition/videos/presidential-debate.mp4")
+        self.video = cv2.VideoCapture("/Users/sulaksh555/Documents/python/flask/facial-expression-recognition/videos/life-is-like-this-i-like-this.mov")
 
     def __del__(self):
         self.video.release()
